@@ -114,8 +114,9 @@ command discardall jsb browser.tabs.query({}).then(ts => browser.tabs.discard(ts
 " jsb browser.runtime.getPlatformInfo().then(os=>{const profiledir = os.os=="win" ? "C:\\Users\\olie\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\gwm76nmk.default" : "auto"; tri.config.set("profiledir", profiledir)})
 " 
 " " Sane hinting mode
-" set hintfiltermode vimperator-reflow
-" set hintnames numeric
+set hintfiltermode simple
+set hintnames short
+set hintchars hjklasdfgyuiopqwertnmzxcvb
 " 
 " " Defaults to 300ms but I'm a 'move fast and close the wrong tabs' kinda chap
 set hintdelay 100
