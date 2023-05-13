@@ -115,7 +115,7 @@ command discardall jsb browser.tabs.query({}).then(ts => browser.tabs.discard(ts
 " 
 " " Sane hinting mode
 set hintfiltermode vimperator-reflow
-set hintnames numeric
+" set hintnames numeric
 " 
 " " Defaults to 300ms but I'm a 'move fast and close the wrong tabs' kinda chap
 set hintdelay 100
