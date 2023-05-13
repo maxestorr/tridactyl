@@ -170,7 +170,7 @@ set hintdelay 100
 " 
 " " Isolate Facebook in its own container
 set auconcreatecontainer true
-autocontain facebook\.com facebook
+autocontain -s facebook\.com facebook
 " 
 " " For syntax highlighting see https://github.com/tridactyl/vim-tridactyl
 " " vim: set filetype=tridactyl
