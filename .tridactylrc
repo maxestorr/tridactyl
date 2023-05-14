@@ -44,8 +44,8 @@ bind J tabnext
 bind K tabprev
 "
 " " Allow <> to change speed in YT videos
-unbindurl youtube.com <
-unbindurl youtube.com >
+unbindurl youtube\.com <
+unbindurl youtube\.com >
 " " Comment toggler for Reddit, Hacker News and Lobste.rs
 bind ;c hint -Jc [class*="expand"],[class*="togg"],[class="comment_folder"]
 " 
