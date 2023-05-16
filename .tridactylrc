@@ -72,8 +72,8 @@ bind --mode=visual t composite js document.getSelection().toString() | fillcmdli
 bindurl reddit.com gu urlparent 4
 " 
 " " Only hint search results on Google and DDG
-bindurl www.google.com f hint -Jc #search div:not(.action-menu) > a
-bindurl www.google.com F hint -Jbc #search div:not(.action-menu) > a
+" bindurl www.google.com f hint -Jc #search div:not(.action-menu) > a
+" bindurl www.google.com F hint -Jbc #search div:not(.action-menu) > a
 " 
 " 
 bindurl ^https://duckduckgo.com f hint -Jc [data-testid="result-title-a"]
